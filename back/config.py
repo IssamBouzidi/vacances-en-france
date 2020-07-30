@@ -5,13 +5,16 @@
 # database connections
 class db(object):
 
+    """coordonnées de la base de données
+    """
     dbname = 'pgyaqpgp'
     user = 'pgyaqpgp'
     host = 'kandula.db.elephantsql.com'
     password = 'eSAezYQQokBSLejWoEyc4etVYNPE4e9B'
 
     connexion_string = {
-        'db': "pgyaqpgp",
-        'host': "kandula.db.elephantsql.com",
-        'user': 'pgyaqpgp',
-        'password': 'eSAezYQQokBSLejWoEyc4etVYNPE4e9B'}
+        'db': dbname,
+        'host': host,
+        'user': user,
+        'password': password
+        }
